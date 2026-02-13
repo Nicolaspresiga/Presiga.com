@@ -1,11 +1,48 @@
 @media (max-width: 768px) {
-  .site-header .container {
+  .topbar-inner {
+    min-height: auto;
+    padding: 0.7rem 0;
+    gap: 0.4rem 1rem;
+    font-size: 0.88rem;
+  }
+
+  .main-nav {
     flex-direction: column;
     align-items: flex-start;
   }
 
+  .brand-logo {
+    height: 72px;
+  }
+
   .nav-list {
     gap: 0.6rem;
+  }
+
+  .lang-switch {
+    align-self: flex-start;
+  }
+
+  .about-hero,
+  .about-hero-overlay {
+    min-height: 220px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-list li {
+    font-size: 1rem;
+    padding-left: 3.3rem;
+  }
+
+  .stat-card {
+    min-height: 220px;
+  }
+
+  .stat-label {
+    font-size: 1.2rem;
   }
 
   .site-footer .container {
