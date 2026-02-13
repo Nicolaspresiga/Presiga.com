@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .site-header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-list {
+    gap: 0.6rem;
+  }
+
+  .site-footer .container {
+    flex-direction: column;
+  }
+}
