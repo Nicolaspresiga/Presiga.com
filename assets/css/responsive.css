@@ -32,6 +32,32 @@
     grid-template-columns: 1fr;
   }
 
+  .services-content {
+    padding-top: 2rem;
+  }
+
+  .service-company,
+  .service-story,
+  .service-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .service-image-main,
+  .service-gallery img {
+    min-height: 240px;
+  }
+
+  .perfing-logo {
+    width: min(560px, 92vw);
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.4rem;
+  }
+
+  .service-gallery img {
+    border-radius: 20px;
+  }
+
   .about-list li {
     font-size: 1rem;
     padding-left: 3.3rem;
