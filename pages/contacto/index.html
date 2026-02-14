@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
+      <div class="container main-nav">
         <a class="brand" href="../../index.html" aria-label="Ir al inicio">
           <img
             class="brand-logo"
@@ -17,26 +17,74 @@
             alt="Logo Presiga"
           />
         </a>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="../quienes-somos/index.html">Quienes Somos</a></li>
+            <li><a href="../servicios/index.html">Servicios</a></li>
+            <li><a href="../aliados/index.html">Aliados</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="index.html" aria-current="page">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="lang-switch">
+          <span class="flag flag-co">CO</span>
+          <span class="flag flag-pa">PA</span>
+        </div>
       </div>
     </header>
-    <main class="container page-content">
-      <h1>Contacto</h1>
-      <section>
-        <h2>Formulario</h2>
-        <p>
-          Escribenos para recibir informacion comercial sobre disponibilidad,
-          especificaciones y condiciones de trabajo.
+
+    <main class="container contact-content">
+      <section class="contact-hero">
+        <span class="chip">Contactanos</span>
+        <h1>Listo para recibir nuestros mejores servicios</h1>
+        <p class="contact-subtitle">
+          No dude en contactarnos.
         </p>
-        <p>Campos sugeridos: nombre, correo, telefono, empresa y mensaje.</p>
       </section>
-      <section>
-        <h2>Canales Directos</h2>
-        <p>Correo: info@presiga.com</p>
-        <p>Ubicacion: Abejorral, Antioquia, Colombia</p>
-        <p>Canal comercial: WhatsApp y correo empresarial</p>
-        <p>Horario de atencion: lunes a viernes, horario laboral</p>
+
+      <section class="contact-cards">
+        <article class="contact-card">
+          <h2>Direccion</h2>
+          <p>Abejorral, Antioquia, Colombia</p>
+        </article>
+        <article class="contact-card">
+          <h2>Correo</h2>
+          <p><a href="mailto:info@presiga.com">info@presiga.com</a></p>
+        </article>
+        <article class="contact-card">
+          <h2>Telefono</h2>
+          <p><a href="tel:+573102995177">(+57) 3102995177</a></p>
+        </article>
       </section>
-      <p><a href="../../index.html">Volver al inicio</a></p>
+
+      <section class="contact-grid">
+        <div class="contact-copy">
+          <span class="chip">Contactanos</span>
+          <h2>Tienes preguntas? Escribenos.</h2>
+          <p>
+            Si tienes dudas o sugerencias, escribenos y nos pondremos en contacto
+            contigo lo antes posible.
+          </p>
+          <div class="contact-social">
+            <a href="https://www.facebook.com/GrupoPresiga" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.instagram.com/grupo_presiga/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <input type="text" name="nombre" placeholder="Nombre" required />
+            <input type="text" name="correo" placeholder="Correo" required />
+          </div>
+          <div class="form-row">
+            <input type="text" name="telefono" placeholder="Teléfono" required />
+            <input type="text" name="asunto" placeholder="Asunto" />
+          </div>
+          <textarea name="mensaje" rows="6" placeholder="Escribe el mensaje"></textarea>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>

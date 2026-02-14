@@ -38,7 +38,10 @@
 
   .service-company,
   .service-story,
-  .service-gallery {
+  .service-gallery,
+  .contact-cards,
+  .contact-grid,
+  .form-row {
     grid-template-columns: 1fr;
   }
 
