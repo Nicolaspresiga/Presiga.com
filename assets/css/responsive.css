@@ -19,6 +19,15 @@
     gap: 0.6rem;
   }
 
+  .hero-slider {
+    height: 240px;
+  }
+
+  .slider-btn {
+    width: 38px;
+    height: 38px;
+  }
+
   .lang-switch {
     align-self: flex-start;
   }

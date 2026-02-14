@@ -12,8 +12,17 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
   <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <p>Abejorral, Antioquia, Colombia</p>
+        <p>info@presiga.com</p>
+        <p>Visitanos</p>
+        <p>Conocenos</p>
+      </div>
+    </header>
+
     <header class="site-header">
-      <div class="container">
+      <div class="container main-nav">
         <a class="brand" href="index.html" aria-label="Ir al inicio">
           <img
             class="brand-logo"
@@ -31,11 +40,39 @@
             <li><a href="pages/contacto/index.html">Contacto</a></li>
           </ul>
         </nav>
+        <div class="lang-switch">
+          <span class="flag flag-co">CO</span>
+          <span class="flag flag-pa">PA</span>
+        </div>
       </div>
     </header>
 
     <main class="container page-content">
       <h1>Produccion y exportacion de aguacate Hass de Colombia al mundo</h1>
+
+      <section class="hero-slider" aria-label="Galeria de la finca">
+        <div class="slider-track">
+          <figure class="slide is-active">
+            <img src="assets/images/slides/finca-slide-1.jpg" alt="Finca Presiga imagen 1" />
+          </figure>
+          <figure class="slide">
+            <img src="assets/images/slides/finca-slide-2.jpg" alt="Finca Presiga imagen 2" />
+          </figure>
+          <figure class="slide">
+            <img src="assets/images/slides/finca-slide-3.jpg" alt="Finca Presiga imagen 3" />
+          </figure>
+          <figure class="slide">
+            <img src="assets/images/slides/finca-slide-4.jpg" alt="Finca Presiga imagen 4" />
+          </figure>
+          <figure class="slide">
+            <img src="assets/images/slides/finca-slide-5.jpg" alt="Finca Presiga imagen 5" />
+          </figure>
+        </div>
+
+        <button class="slider-btn prev" type="button" aria-label="Imagen anterior">&#10094;</button>
+        <button class="slider-btn next" type="button" aria-label="Siguiente imagen">&#10095;</button>
+        <div class="slider-dots" aria-label="Indicadores del slider"></div>
+      </section>
 
       <section>
         <h2>Compromiso Comercial</h2>
@@ -105,5 +142,6 @@
     </footer>
 
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/slider.js"></script>
   </body>
 </html>
