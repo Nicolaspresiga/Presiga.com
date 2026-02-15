@@ -80,6 +80,16 @@ body {
   text-decoration: none;
   color: var(--color-text);
   font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav-list a:hover,
+.nav-list a:focus-visible {
+  color: var(--color-topbar);
+}
+
+.nav-list a:active {
+  color: #327a1e;
 }
 
 .lang-switch {
