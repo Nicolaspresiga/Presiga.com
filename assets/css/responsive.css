@@ -1,9 +1,9 @@
 @media (max-width: 768px) {
   .topbar-inner {
     min-height: auto;
-    padding: 0.7rem 0;
+    padding: 0.5rem 0;
     gap: 0.4rem 1rem;
-    font-size: 0.88rem;
+    font-size: 0.8rem;
   }
 
   .main-nav {
@@ -12,15 +12,15 @@
   }
 
   .brand-logo {
-    height: 72px;
+    height: 56px;
   }
 
   .nav-list {
-    gap: 0.6rem;
+    gap: 0.5rem;
   }
 
   .hero-slider {
-    height: 240px;
+    height: 192px;
   }
 
   .slider-btn {
@@ -71,16 +71,16 @@
   }
 
   .about-list li {
-    font-size: 1rem;
-    padding-left: 3.3rem;
+    font-size: 0.95rem;
+    padding-left: 3rem;
   }
 
   .stat-card {
-    min-height: 220px;
+    min-height: 155px;
   }
 
   .stat-label {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .site-footer .container {
